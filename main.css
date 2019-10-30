@@ -5,13 +5,30 @@ body {
 background-repeat: no-repeat;
     
 }
+ul#navigation{
+margin-left: 0;
+padding-left: 0;
+list-style-type: none;
+background: #036;
+float: left;
+width: 100%;
+}
 
+ul#navigation li
+{
+    display: inline;
+}
 
+ul#navigation a {
+    display: block;
+    float: left;
+    padding: .2em 1em;
+}
 .lists{
     background-color:rgba(76, 141, 201, 0.6);
     text-align: center;
     padding: 25px;
-width: 900px;
+width: 100%;
 }
 
 .textFont{
