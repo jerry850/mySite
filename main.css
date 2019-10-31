@@ -25,6 +25,16 @@ background-repeat: no-repeat;
    background-repeat: no-repeat; 
    }
 
+   #foresttest{
+    background-image: url("images/mountains.jpg");
+       width: 1500px;
+       height: 20000px;
+       display: block;
+       position: relative;
+        
+   }
+
+
 ul#navigation{
 margin-top: 0;
     margin-left: 0;
