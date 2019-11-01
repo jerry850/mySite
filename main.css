@@ -1,8 +1,8 @@
 body {
- background-image: url("images/mountains.jpg");
+ background-image: url("images/fun2.jpeg"); 
     background-color: blueviolet;
-    background-size: cover;
-background-repeat: no-repeat; 
+    /* background-size: cover;
+background-repeat: no-repeat;  */
 }
 
 #seascape {
@@ -18,21 +18,32 @@ background-repeat: no-repeat;
    background-repeat: no-repeat; 
    }
 
-   #forest {
-    background-image: url("images/forest.jpeg");
+   /* #forest {
+    
        background-color: blueviolet;
        background-size: cover;
    background-repeat: no-repeat; 
-   }
+   } */
 
-   #foresttest{
+   #mountain {
     background-image: url("images/mountains.jpg");
-       width: 1500px;
-       height: 20000px;
-       display: block;
-       position: relative;
-        
+    background-color: blueviolet;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+
+   /* #mountain{
+    
+       height: 1500 px;
+        width: 1500 px;
+        display: block;
+        position: relative;
    }
+        #mountain::after{
+        background-image: url("images/mountains1.jpg");} */
+   
 
 
 ul#navigation{
@@ -78,6 +89,10 @@ font-family: fantasy;
 
 }
 
+.textColor2{
+    color:rgb(46, 4, 4); 
+
+}
 .size{
     width: 400px;
 }
@@ -87,6 +102,13 @@ font-family: fantasy;
     color:whitesmoke;
     font-style: oblique;
     text-shadow: 5px 4px #036;
+}
+
+#bigTitle2 {
+    font-size: 60px;
+    color:yellowgreen;
+    font-style: oblique;
+    /* text-shadow: 5px 4px #036; */
 }
 
 * {
